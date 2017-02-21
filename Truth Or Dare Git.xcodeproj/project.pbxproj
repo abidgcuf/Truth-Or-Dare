@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A78E301E5C070900864021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A78E2F1E5C070900864021 /* AppDelegate.swift */; };
+		18A78E371E5C070900864021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A78E361E5C070900864021 /* Assets.xcassets */; };
+		18A78E3A1E5C070900864021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A78E381E5C070900864021 /* LaunchScreen.storyboard */; };
+		18A78E451E5C070A00864021 /* Truth_Or_Dare_GitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A78E441E5C070A00864021 /* Truth_Or_Dare_GitTests.swift */; };
+		18A78E501E5C070A00864021 /* Truth_Or_Dare_GitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A78E4F1E5C070A00864021 /* Truth_Or_Dare_GitUITests.swift */; };
+		18A78E5F1E5C075900864021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A78E5D1E5C075900864021 /* ViewController.swift */; };
+		18A78E601E5C075900864021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A78E5E1E5C075900864021 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A78E411E5C070A00864021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A78E241E5C070900864021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A78E2B1E5C070900864021;
+			remoteInfo = "Truth Or Dare Git";
+		};
+		18A78E4C1E5C070A00864021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A78E241E5C070900864021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A78E2B1E5C070900864021;
+			remoteInfo = "Truth Or Dare Git";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A78E2C1E5C070900864021 /* Truth Or Dare Git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truth Or Dare Git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A78E2F1E5C070900864021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A78E361E5C070900864021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A78E391E5C070900864021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A78E3B1E5C070900864021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A78E401E5C070A00864021 /* Truth Or Dare GitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truth Or Dare GitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A78E441E5C070A00864021 /* Truth_Or_Dare_GitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truth_Or_Dare_GitTests.swift; sourceTree = "<group>"; };
+		18A78E461E5C070A00864021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A78E4B1E5C070A00864021 /* Truth Or Dare GitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Truth Or Dare GitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A78E4F1E5C070A00864021 /* Truth_Or_Dare_GitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truth_Or_Dare_GitUITests.swift; sourceTree = "<group>"; };
+		18A78E511E5C070A00864021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A78E5D1E5C075900864021 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A78E5E1E5C075900864021 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A78E291E5C070900864021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A78E3D1E5C070A00864021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A78E481E5C070A00864021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A78E231E5C070900864021 = {
+			isa = PBXGroup;
+			children = (
+				18A78E2E1E5C070900864021 /* Truth Or Dare Git */,
+				18A78E431E5C070A00864021 /* Truth Or Dare GitTests */,
+				18A78E4E1E5C070A00864021 /* Truth Or Dare GitUITests */,
+				18A78E2D1E5C070900864021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A78E2D1E5C070900864021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A78E2C1E5C070900864021 /* Truth Or Dare Git.app */,
+				18A78E401E5C070A00864021 /* Truth Or Dare GitTests.xctest */,
+				18A78E4B1E5C070A00864021 /* Truth Or Dare GitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A78E2E1E5C070900864021 /* Truth Or Dare Git */ = {
+			isa = PBXGroup;
+			children = (
+				18A78E2F1E5C070900864021 /* AppDelegate.swift */,
+				18A78E5D1E5C075900864021 /* ViewController.swift */,
+				18A78E5E1E5C075900864021 /* Main.storyboard */,
+				18A78E361E5C070900864021 /* Assets.xcassets */,
+				18A78E381E5C070900864021 /* LaunchScreen.storyboard */,
+				18A78E3B1E5C070900864021 /* Info.plist */,
+			);
+			path = "Truth Or Dare Git";
+			sourceTree = "<group>";
+		};
+		18A78E431E5C070A00864021 /* Truth Or Dare GitTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A78E441E5C070A00864021 /* Truth_Or_Dare_GitTests.swift */,
+				18A78E461E5C070A00864021 /* Info.plist */,
+			);
+			path = "Truth Or Dare GitTests";
+			sourceTree = "<group>";
+		};
+		18A78E4E1E5C070A00864021 /* Truth Or Dare GitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A78E4F1E5C070A00864021 /* Truth_Or_Dare_GitUITests.swift */,
+				18A78E511E5C070A00864021 /* Info.plist */,
+			);
+			path = "Truth Or Dare GitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A78E2B1E5C070900864021 /* Truth Or Dare Git */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A78E541E5C070A00864021 /* Build configuration list for PBXNativeTarget "Truth Or Dare Git" */;
+			buildPhases = (
+				18A78E281E5C070900864021 /* Sources */,
+				18A78E291E5C070900864021 /* Frameworks */,
+				18A78E2A1E5C070900864021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Truth Or Dare Git";
+			productName = "Truth Or Dare Git";
+			productReference = 18A78E2C1E5C070900864021 /* Truth Or Dare Git.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A78E3F1E5C070A00864021 /* Truth Or Dare GitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A78E571E5C070A00864021 /* Build configuration list for PBXNativeTarget "Truth Or Dare GitTests" */;
+			buildPhases = (
+				18A78E3C1E5C070A00864021 /* Sources */,
+				18A78E3D1E5C070A00864021 /* Frameworks */,
+				18A78E3E1E5C070A00864021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A78E421E5C070A00864021 /* PBXTargetDependency */,
+			);
+			name = "Truth Or Dare GitTests";
+			productName = "Truth Or Dare GitTests";
+			productReference = 18A78E401E5C070A00864021 /* Truth Or Dare GitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A78E4A1E5C070A00864021 /* Truth Or Dare GitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A78E5A1E5C070A00864021 /* Build configuration list for PBXNativeTarget "Truth Or Dare GitUITests" */;
+			buildPhases = (
+				18A78E471E5C070A00864021 /* Sources */,
+				18A78E481E5C070A00864021 /* Frameworks */,
+				18A78E491E5C070A00864021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A78E4D1E5C070A00864021 /* PBXTargetDependency */,
+			);
+			name = "Truth Or Dare GitUITests";
+			productName = "Truth Or Dare GitUITests";
+			productReference = 18A78E4B1E5C070A00864021 /* Truth Or Dare GitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A78E241E5C070900864021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ITPickle;
+				TargetAttributes = {
+					18A78E2B1E5C070900864021 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z945RWC7C4;
+						ProvisioningStyle = Automatic;
+					};
+					18A78E3F1E5C070A00864021 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z945RWC7C4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A78E2B1E5C070900864021;
+					};
+					18A78E4A1E5C070A00864021 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z945RWC7C4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18A78E2B1E5C070900864021;
+					};
+				};
+			};
+			buildConfigurationList = 18A78E271E5C070900864021 /* Build configuration list for PBXProject "Truth Or Dare Git" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A78E231E5C070900864021;
+			productRefGroup = 18A78E2D1E5C070900864021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A78E2B1E5C070900864021 /* Truth Or Dare Git */,
+				18A78E3F1E5C070A00864021 /* Truth Or Dare GitTests */,
+				18A78E4A1E5C070A00864021 /* Truth Or Dare GitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A78E2A1E5C070900864021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A78E601E5C075900864021 /* Main.storyboard in Resources */,
+				18A78E3A1E5C070900864021 /* LaunchScreen.storyboard in Resources */,
+				18A78E371E5C070900864021 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A78E3E1E5C070A00864021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A78E491E5C070A00864021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A78E281E5C070900864021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A78E5F1E5C075900864021 /* ViewController.swift in Sources */,
+				18A78E301E5C070900864021 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A78E3C1E5C070A00864021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A78E451E5C070A00864021 /* Truth_Or_Dare_GitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A78E471E5C070A00864021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A78E501E5C070A00864021 /* Truth_Or_Dare_GitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A78E421E5C070A00864021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A78E2B1E5C070900864021 /* Truth Or Dare Git */;
+			targetProxy = 18A78E411E5C070A00864021 /* PBXContainerItemProxy */;
+		};
+		18A78E4D1E5C070A00864021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A78E2B1E5C070900864021 /* Truth Or Dare Git */;
+			targetProxy = 18A78E4C1E5C070A00864021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A78E381E5C070900864021 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A78E391E5C070900864021 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A78E521E5C070A00864021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A78E531E5C070A00864021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A78E551E5C070A00864021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z945RWC7C4;
+				INFOPLIST_FILE = "Truth Or Dare Git/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MountainCross.Truth-Or-Dare-Git";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18A78E561E5C070A00864021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z945RWC7C4;
+				INFOPLIST_FILE = "Truth Or Dare Git/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MountainCross.Truth-Or-Dare-Git";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18A78E581E5C070A00864021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z945RWC7C4;
+				INFOPLIST_FILE = "Truth Or Dare GitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MountainCross.Truth-Or-Dare-GitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truth Or Dare Git.app/Truth Or Dare Git";
+			};
+			name = Debug;
+		};
+		18A78E591E5C070A00864021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z945RWC7C4;
+				INFOPLIST_FILE = "Truth Or Dare GitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MountainCross.Truth-Or-Dare-GitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Truth Or Dare Git.app/Truth Or Dare Git";
+			};
+			name = Release;
+		};
+		18A78E5B1E5C070A00864021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z945RWC7C4;
+				INFOPLIST_FILE = "Truth Or Dare GitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MountainCross.Truth-Or-Dare-GitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Truth Or Dare Git";
+			};
+			name = Debug;
+		};
+		18A78E5C1E5C070A00864021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z945RWC7C4;
+				INFOPLIST_FILE = "Truth Or Dare GitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MountainCross.Truth-Or-Dare-GitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Truth Or Dare Git";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A78E271E5C070900864021 /* Build configuration list for PBXProject "Truth Or Dare Git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A78E521E5C070A00864021 /* Debug */,
+				18A78E531E5C070A00864021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A78E541E5C070A00864021 /* Build configuration list for PBXNativeTarget "Truth Or Dare Git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A78E551E5C070A00864021 /* Debug */,
+				18A78E561E5C070A00864021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A78E571E5C070A00864021 /* Build configuration list for PBXNativeTarget "Truth Or Dare GitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A78E581E5C070A00864021 /* Debug */,
+				18A78E591E5C070A00864021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A78E5A1E5C070A00864021 /* Build configuration list for PBXNativeTarget "Truth Or Dare GitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A78E5B1E5C070A00864021 /* Debug */,
+				18A78E5C1E5C070A00864021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A78E241E5C070900864021 /* Project object */;
+}

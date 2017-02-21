@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Truth_Or_Dare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rDy-50-XCl">
+                                <rect key="frame" x="16" y="113" width="343" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="qy3-8w-dau">
+                                <rect key="frame" x="16" y="122" width="343" height="423"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MI0-fx-t1u">
+                                <rect key="frame" x="16" y="603" width="343" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="fhI-ev-EAi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Truth">
+                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="truthDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Atn-NS-32d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhA-Gg-x9G">
+                                <rect key="frame" x="16" y="551" width="343" height="44"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="skQ-E5-Ldn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Dare">
+                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dareDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gci-C2-5VX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Truth or Dare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVg-Uw-TJa">
+                                <rect key="frame" x="16" y="60" width="260" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="RbJ-Gr-IO1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AVg-Uw-TJa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="1o8-H8-oof"/>
+                            <constraint firstItem="qy3-8w-dau" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2lR-fo-6Wj"/>
+                            <constraint firstItem="MI0-fx-t1u" firstAttribute="top" secondItem="dhA-Gg-x9G" secondAttribute="bottom" constant="8" symbolic="YES" id="8tg-ro-DOC"/>
+                            <constraint firstItem="dhA-Gg-x9G" firstAttribute="leading" secondItem="MI0-fx-t1u" secondAttribute="leading" id="DXd-q2-7Te"/>
+                            <constraint firstItem="AVg-Uw-TJa" firstAttribute="leading" secondItem="rDy-50-XCl" secondAttribute="leading" id="EkE-ug-vjb"/>
+                            <constraint firstItem="dhA-Gg-x9G" firstAttribute="top" secondItem="qy3-8w-dau" secondAttribute="bottom" constant="6" id="HBr-sX-FjP"/>
+                            <constraint firstItem="dhA-Gg-x9G" firstAttribute="trailing" secondItem="MI0-fx-t1u" secondAttribute="trailing" id="Ury-pD-1e7"/>
+                            <constraint firstItem="rDy-50-XCl" firstAttribute="trailing" secondItem="qy3-8w-dau" secondAttribute="trailing" id="YRC-zq-j0q"/>
+                            <constraint firstItem="rDy-50-XCl" firstAttribute="leading" secondItem="qy3-8w-dau" secondAttribute="leading" id="Z2p-s9-sxP"/>
+                            <constraint firstItem="AVg-Uw-TJa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cC1-bT-bDL"/>
+                            <constraint firstItem="rDy-50-XCl" firstAttribute="top" secondItem="AVg-Uw-TJa" secondAttribute="bottom" constant="8" symbolic="YES" id="ef9-yl-LHM"/>
+                            <constraint firstAttribute="bottom" secondItem="MI0-fx-t1u" secondAttribute="bottom" constant="20" symbolic="YES" id="jnH-ha-QNz"/>
+                            <constraint firstItem="qy3-8w-dau" firstAttribute="top" secondItem="rDy-50-XCl" secondAttribute="bottom" constant="8" symbolic="YES" id="lj1-AA-SmA"/>
+                            <constraint firstItem="qy3-8w-dau" firstAttribute="trailing" secondItem="dhA-Gg-x9G" secondAttribute="trailing" id="nd7-Ax-1gS"/>
+                            <constraint firstItem="qy3-8w-dau" firstAttribute="leading" secondItem="dhA-Gg-x9G" secondAttribute="leading" id="phH-rx-7B4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AVg-Uw-TJa" secondAttribute="trailing" constant="83" id="qvX-6B-Es5"/>
+                            <constraint firstItem="rDy-50-XCl" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yOT-VW-bth"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="questionImageView" destination="qy3-8w-dau" id="KNJ-3u-xMa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="start" width="394" height="491"/>
+    </resources>
+</document>
